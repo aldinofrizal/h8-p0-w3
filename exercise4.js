@@ -65,4 +65,5 @@ function dataHandler2(input){
     var nameString = String(input[1]);
     console.log(nameString.substr(0,15));
 }
+
 dataHandler2(input);
