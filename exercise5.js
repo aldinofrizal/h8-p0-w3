@@ -20,7 +20,7 @@ function palindrome(str){
             status = true;
         }else{
             status = false;
-            break;
+            break; //break the loop if there is a false condition
         }
     }
     return status;
