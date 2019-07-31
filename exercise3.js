@@ -12,7 +12,7 @@ function dataHandler(input){
         console.log('TTL: ' + input[i][2] + ' ' + input[i][3]);
         console.log('Hobi: ' + input[i][4]);
         console.log(' '); //output enter/pindah baris agar leibh rapih
-        }
+    }
 }
 
 
