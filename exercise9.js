@@ -14,3 +14,4 @@ function cariMean(arr) {
   console.log(cariMean([6, 5, 4, 7, 3])); // 5
   console.log(cariMean([1, 3, 3])); // 2
   console.log(cariMean([7, 7, 7, 7, 7])); // 7
+  console.log(cariMean([1, 2, 1, 1, 2]));
