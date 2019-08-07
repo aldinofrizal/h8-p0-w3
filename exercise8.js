@@ -24,3 +24,4 @@ function pasanganTerbesar(num) {
   console.log(pasanganTerbesar(910233)); // 91
   console.log(pasanganTerbesar(71856421)); // 85
   console.log(pasanganTerbesar(79918293)); // 99
+  console.log(pasanganTerbesar(2000000030000000));

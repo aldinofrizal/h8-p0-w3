@@ -54,6 +54,7 @@ function dataHandler2(input){
 
     //output sort
     var dateSort = input[3].split("/");
+    
     dateSort.sort(function(value1, value2) { return value2-value1 });
     console.log(dateSort);
 

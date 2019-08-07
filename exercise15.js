@@ -6,7 +6,7 @@ function groupAnimals(animals) {
         hurufAwal.push(animals[i][0]);
     }
     hurufAwal.sort() //sort so the iteration in the next step will follow alphabetic rules
-
+    
     // delete the same element
     for(var i = 0; i<hurufAwal.length; i++){
         if(hurufAwal[i] === hurufAwal[i+1]){

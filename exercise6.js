@@ -27,13 +27,11 @@ function palindrome(str){
 }
 
 function angkaPalindrome(angka){
-    for (var i = 0; i<1; i) {
-        angka = angka + 1;
-        angkaStr = String(angka);
-        if (palindrome(angkaStr) === true){
-            return angka;
-        }
+    angka = angka + 1
+    while (palindrome(String(angka)) === false){
+        angka = angka + 1
     }
+    return angka;
 }
 
 
